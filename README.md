@@ -1,8 +1,6 @@
-# [Seminar 1] Nhóm 6
 
-:::info
-:bulb: Lớp học: KHDL-C06-Khoa2024A 
-:::
+# [Seminar 1] Nhóm 6
+Lớp học: KHDL-C06-Khoa2024A 
 
 ## :beginner: Thành viên
 
