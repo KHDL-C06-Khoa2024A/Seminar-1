@@ -1,23 +1,3 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.12.5
-  nbformat: 4
-  nbformat_minor: 2
----
-
 # Mô hình nhận diện tin tức giả
 
 ``` python
@@ -115,7 +95,7 @@ def plot_confusion_matrix(cm, classes,
 ## 1. Biểu diễn Bag-of-word {#1-biểu-diễn-bag-of-word}
 
 ``` python
-preproc_path = '/Users/scottnguyen/Desktop/Project_06/vfnd-fake-news-experiences/PreprocessingData'
+preproc_path = '/Users/HaiDang/Desktop/Project_06/vfnd-fake-news-experiences/PreprocessingData'
 ```
 
 Chuẩn bị dữ liệu: Loại bỏ dấu câu, số, ngày tháng, url\... -\> Chuyển
@@ -136,7 +116,7 @@ def data_preparing(text):
 
 ``` python
 # data1_path = 'preproc_vn_news_226_tlfr.csv'
-data1_path = "/Users/scottnguyen/Desktop/Project_06/vfnd-fake-news-experiences/PreprocessingData/preproc_vn_news_226_tlfr.csv"
+data1_path = "/Users/HaiDang/Desktop/Project_06/vfnd-fake-news-experiences/PreprocessingData/preproc_vn_news_226_tlfr.csv"
 ```
 
 Load data từ file `preproc_vn_news_226_tlfr.csv` là các file đã được
@@ -866,8 +846,6 @@ print(classification_report(y_true=y_news2_test, y_pred=svm_predict2, target_nam
     avg / total       0.91      0.91      0.91        45
 
 #### Lưu lại model1: `SVM_clf_2`
-:::
-
 
 ``` python
 model1_files = 'SVM_clf_2.sav'
