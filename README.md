@@ -1,5 +1,9 @@
+# Nhóm 6:
+1. Nguyễn Quốc Huy 
+2. Nguyễn Hải Đăng 
+3. Trương Nhật Thành 
+   
 # Mô hình nhận diện tin tức giả
-
 ``` python
 import os, csv, sys
 import unicodedata as ud
