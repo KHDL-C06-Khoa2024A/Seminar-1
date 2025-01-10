@@ -362,7 +362,7 @@ Confusion matrix, without normalization
      [ 4 15]]
 ```
 
-![a1](https://hackmd.io/_uploads/BJS-T20Uyx.png)
+![a1](result/a1.png)
 
 
 ``` python
@@ -493,7 +493,7 @@ plot_confusion_matrix(cnf_matrix2, classes = ['Real: 0', 'Fake: 1'],
      [ 1 18]]
 ```
 
-![a2](https://hackmd.io/_uploads/B1MX6hAL1x.png)
+![a2](result/a2.png)
 
 
 ``` python
@@ -601,8 +601,7 @@ plot_confusion_matrix(cnf_matrix_data2_dt, classes = ['Real: 0', 'Fake: 1'],
     [[26  4]
      [ 2 13]]
 ```
-![a3](https://hackmd.io/_uploads/HkL4pnA8yl.png)
-
+![a3](result/a3.png)
 
 ``` python
 print(classification_report(y_predicted_text_domain, y_news2_test, target_names=['Real', 'Fake']))
@@ -734,7 +733,7 @@ Confusion matrix, without normalization
     [[24  4]
      [ 2 15]]
 ```
-![a4](https://hackmd.io/_uploads/BJxrTn0Uye.png)
+![a4](result/a4.png)
 
 ``` python
 print(classification_report(y_true=y_news2_test, y_pred=y_predicted_text_domain3, target_names=['Real', 'Fake']))
@@ -861,7 +860,7 @@ plot_confusion_matrix(cnf_matrix4, classes = ['Real: 0', 'Fake: 1'],
     [[26  2]
      [ 2 15]]
 
-![a5](https://hackmd.io/_uploads/BkuHTnC81x.png)
+![a5](result/a5.png)
 
 ``` python
 print(classification_report(y_true=y_news2_test, y_pred=svm_predict2, target_names=['Real', 'Fake']))
