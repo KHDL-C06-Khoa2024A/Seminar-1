@@ -152,9 +152,7 @@ data1_train_label = []
 data1_test_text = []
 data1_test_label = []
 ```
-:::
 
-::: {.cell .code execution_count="12"}
 ``` python
 with open(os.path.join(preproc_path, data1_path), 'r') as csv_file:
     reader = csv.DictReader(csv_file)
@@ -607,21 +605,15 @@ plot_confusion_matrix(cnf_matrix_data2_dt, classes = ['Real: 0', 'Fake: 1'],
 print(classification_report(y_predicted_text_domain, y_news2_test, target_names=['Real', 'Fake']))
 ```
 
-::: {.output .stream .stdout}
                  precision    recall  f1-score   support
 
            Real       0.93      0.87      0.90        30
            Fake       0.76      0.87      0.81        15
 
     avg / total       0.87      0.87      0.87        45
-:::
-:::
 
-::: {.cell .markdown}
 #### Lưu lại model1: `MultiNB_clf_textdomain_1`
-:::
 
-::: {.cell .code}
 ``` python
 model1_files = 'MultiNB_clf_textdomain_1.sav'
 joblib.dump(MultiNB_text_domain_clf_2, os.path.join(models_path, model1_files))
