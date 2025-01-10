@@ -6,7 +6,7 @@ from utils import load_file_with_newline
 import urlmarker
 
 # Load all dictionary 
-dict_path = '/Users/scottnguyen/Desktop/Project_06/vfnd-fake-news-experiences/Dictionaries/'
+dict_path = 'Dictionaries/'
 
 
 bi_dict = load_file_with_newline(os.path.join(dict_path, 'bi_gram.txt'))
