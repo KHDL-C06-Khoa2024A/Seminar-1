@@ -4,7 +4,7 @@
 3. Trương Nhật Thành 
 
 # Báo cáo
-Báo cáo: [Báo cáo/Nhóm 6 Seminar 1.docx] (Báo cáo/Nhóm 6 Seminar 1.docx)
+Báo cáo: [Báo cáo/Nhóm 6 Seminar 1.docx](https://github.com/KHDL-C06-Khoa2024A/Seminar-1/blob/main/B%C3%A1o%20c%C3%A1o/Nh%C3%B3m%206%20Seminar%201.docx)
    
 # Mô hình nhận diện tin tức giả
 ``` python
