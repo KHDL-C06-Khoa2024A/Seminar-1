@@ -2,6 +2,9 @@
 1. Nguyễn Quốc Huy 
 2. Nguyễn Hải Đăng 
 3. Trương Nhật Thành 
+
+# Báo cáo
+Báo cáo: [Báo cáo/Nhóm 6 Seminar 1.docx] (Báo cáo/Nhóm 6 Seminar 1.docx)
    
 # Mô hình nhận diện tin tức giả
 ``` python
